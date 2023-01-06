@@ -1,0 +1,185 @@
+<html>
+	<title>MENDEL ABM</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+</style>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<body class="w3-black">
+		
+		<div class="w3-top">
+			<div class="w3-bar w3-black w3-wide w3-padding w3-card">
+				<a href="#home" class="w3-bar-item w3-button w3-hover-orange w3-round w3-hover-text-white"><b>MENDEL </b><span class="w3-text-black w3-orange w3-round w3-padding"><b>ABM<b></span></a>
+				<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right w3-hover-orange w3-round" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars w3-text-white"></i></a>
+				<!-- Float links to the right. Hide them on small screens -->
+				<div class="w3-right w3-hide-small">
+					<a href="#home" class="w3-bar-item w3-button w3-hover-orange w3-round w3-hover-text-white">Home</a>
+					<a href="#adviser" class="w3-bar-item w3-button w3-hover-orange w3-round w3-hover-text-white">Adviser</a>
+					<a href="#classmates" class="w3-bar-item w3-button w3-hover-orange w3-round w3-hover-text-white">Classmates</a>
+					<a href="#about" class="w3-bar-item w3-button w3-hover-orange w3-round w3-hover-text-white">About Us</a>
+					<a href="#map" class="w3-bar-item w3-button w3-hover-orange w3-round w3-hover-text-white">Direction</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top w3-opacity-min" style="margin-top:54px">
+		  <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-orange w3-hover-text-white" onclick="myFunction()">HOME</a>
+		  <a href="#adviser" class="w3-bar-item w3-button w3-padding-large w3-hover-orange w3-hover-text-white" onclick="myFunction()">TEACHERS</a>
+		  <a href="#classmates" class="w3-bar-item w3-button w3-padding-large w3-hover-orange w3-hover-text-white" onclick="myFunction()">CLASSMATES</a>
+		  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-orange w3-hover-text-white" onclick="myFunction()">ABOUT US</a>
+		  <a href="#map" class="w3-bar-item w3-button w3-padding-large w3-hover-orange w3-hover-text-white" onclick="myFunction()">MAP</a>
+		</div>
+
+		<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image w3-opacity-min" src="IMG_stage.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding"><b>MENDEL</b></span> <span class="w3-hide-small w3-text-white  w3-orange w3-round w3-padding w3-text-black"><b>ABM<b></span></h1>
+  </div>
+</header>
+		
+		<div class="w3-content w3-padding w3-card" style="max-width:1564px">
+
+  <!-- buildings Section -->
+  <div class="w3-container w3-padding-16" id="adviser">
+
+	<h3 class="w3-border-bottom w3-border-orange w3-padding-16 w3-text-orange"><span class="fa fa-user w3-jumbo"></span>Adviser</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-margin-bottom w3-center w3-large">
+        <img src="IMG_sir.jpg" alt="Marjun Depol" style="width:100%"onclick="onClick(this)">
+      </div>
+	  	  <span class="w3-text-orange"><h3>Marjun Depol</h3></span>
+				       </div>
+	
+  </div>
+	<br>	
+ <!-- Photo grid -->
+  <!-- Photo grid -->
+  <div class="w3-row" id="classmates">
+    <h3 class="w3-border-bottom w3-border-orange w3-padding-16 w3-text-orange"><span class="fa fa-user w3-jumbo"></span>Classmates</h3>
+
+    <div class="w3-quarter w3-container">
+      <img src="IMG_paredes.jpg" style="width:100%" onclick="onClick(this)" alt="Paredes">
+      <img src="IMG_al.jpg" style="width:100%" onclick="onClick(this)" alt="Alvarez">
+      <img src="IMG_arr.jpg" style="width:100%" onclick="onClick(this)" alt="Arroyo">
+   </div>
+    
+   <div class="w3-quarter w3-container">
+      <img src="IMG_penafel.jpg" style="width:100%" onclick="onClick(this)" alt="Penafiel">
+      <img src="IMG_bor.jpg" style="width:100%" onclick="onClick(this)" alt="Borja">
+      <img src="IMG_diana.jpg" style="width:100%" onclick="onClick(this)" alt="dianna">
+    </div>
+    
+    <div class="w3-quarter w3-container">
+      <img src="IMG_jizel.jpg" style="width:100%" onclick="onClick(this)" alt="Jizel">
+      <img src="IMG_or.jpg" style="width:100%" onclick="onClick(this)" alt="Ortiz">
+      <img src="IMG_jocson.jpg" style="width:100%" onclick="onClick(this)" alt="Jocson">
+    </div>
+
+    <div class="w3-quarter w3-container">
+      <img src="IMG_salanatin.jpg" style="width:100%" onclick="onClick(this)" alt="Salanatin">
+      <img src="IMG_raffy.jpg" style="width:100%" onclick="onClick(this)" alt="Raffy">
+      <img src="IMG_pres.jpg" style="width:100%" onclick="onClick(this)" alt="Justine">
+    </div>
+  </div>
+
+
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright w3-hover-orange">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- about us-->
+  <div class="w3-container w3-padding-32" id="about">
+    
+    <h3 class="w3-border-bottom w3-border-orange w3-padding-16 w3-text-orange"><span class="fa fa-user w3-jumbo"></span> About Us</h3>
+  
+	  <div class="w3-row-padding w3-card">
+	  
+	  
+	  
+		<div class="w3-col l6 m6 w3-margin-bottom">
+			<div class="w3-display-container"> 
+			<div class="w3-display-topright fa fa-check-circle w3-text-blue w3-jumbo margin-top w3-padding"></div>
+			<div class="w3-display-bottomleft fa fa-trophy w3-text-black w3-jumbo margin-top w3-orange w3-padding"></div>
+			 <div class="w3-display-bottomright w3-xlarge w3-padding">Rank: ∞</div>
+				<img src="IMG_klyde.jpg" style="width:100%">
+			</div>
+			<h3 class="w3-text-orange">John Klyde Jotas</h3>
+			<div class="w3-display-container">
+				<span class="w3-display-topright fa fa-eye w3-text-white w3-large w3-margin-right">  3321324</span><
+				<span class="w3-display-topleft fa fa-video-camera w3-text-white w3-large w3-margin-right">  3321324</span><br>
+				<br><p class="w3-opacity">Project Manager</p>
+				<p>Address: Q. Abeto St. Mandurriao, Iloilo City<br>Contact Number: 09xxxxxxxxx</p>
+			</div>
+		</div>
+		
+
+		
+		
+		<div class="w3-col l6 m6 w3-margin-bottom">
+			<div class="w3-display-container"> 
+			<div class="w3-display-topright fa fa-check-circle w3-text-blue w3-jumbo margin-top w3-padding"></div>
+			<div class="w3-display-bottomleft fa fa-trophy w3-text-black w3-jumbo margin-top w3-orange w3-padding"></div>
+			 <div class="w3-display-bottomright w3-xlarge w3-padding">Rank: ∞</div>
+				<img src="IMG_6666.png" style="width:101%">
+			</div>
+			<h3 class="w3-text-orange">Friends</h3>
+			<div class="w3-display-container">
+				<span class="w3-display-topright fa fa-eye w3-text-white w3-large">  3321324</span><
+				<span class="w3-display-topleft fa fa-video-camera w3-text-white w3-large w3-margin-right">  3321324</span><br>
+				<br><p class="w3-opacity">Project Manager</p>
+				<p>Address: Q. Abeto St. Mandurriao, Iloilo City<br>Contact Number: 09xxxxxxxxx</p>
+			</div>
+		</div>
+
+	   
+	  </div>
+	
+  </div>
+
+
+
+
+<div class="w3-container w3-card" id="map">
+<h3 class="w3-border-bottom w3-border-orange w3-padding-16 w3-text-orange"><span class="fa fa-location-arrow w3-jumbo"></span> Direction</h3>
+  <div class="w3-display-container w3-content w3-wide"style="max-width:1500px;">
+	<iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=mandurriao national high school&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"  style="width:100%" width="1500" height="1000" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+
+</div>
+		
+</div>	
+		
+		
+		<script>
+			function myFunction() {
+			var x = document.getElementById("navDemo");
+			  if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			  } else { 
+				x.className = x.className.replace(" w3-show", "");
+			  }
+			}
+			
+			function onClick(element) {
+			  document.getElementById("img01").src = element.src;
+			  document.getElementById("modal01").style.display = "block";
+			  var captionText = document.getElementById("caption");
+			  captionText.innerHTML = element.alt;
+				}
+		</script>
+	</body>
+</html>
